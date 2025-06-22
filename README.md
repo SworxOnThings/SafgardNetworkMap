@@ -13,20 +13,45 @@ To add an additional, more immediate layer of network visibility.
 ## How it works
 The initial view presents all of the Saf-Gard locations on a geographical map marked by an AdvancedMarker. A reference photo has been included in the **Photos** section, named *Initial View*.
 
-When clicked, an AdvancedMarker for any location will pop up an InfoWindow. The InfoWindow will contain a section that displays the status of the Firewall, along with three buttons. Each of those buttons will toggle the *Device Panel*, as shown in the **Photos** section, and populate the panel with network information. The three buttons are for Firewall information, Unifi Switch Information, and Unifi Wireless Access Point information. 
+When clicked, an AdvancedMarker for any location will pop up an InfoWindow. (shown in photo *InfoWindow*) The InfoWindow will contain a section that displays the status of the Firewall, along with three buttons. Each of those buttons will toggle the *Device Panel*, as shown in the **Photos** section, and populate the panel with network information. The three buttons are for Firewall information, Unifi Switch Information, and Unifi Wireless Access Point information. 
 
 The network information for each respective device is gathered from the APIs provided by OpManager and Unifi Site Manager. 
 
 Upon encountering an error with one of the devices for a location, the AdvancedMarker will change colors to reflect the state of the location. The Color Code is:
-- <span style="color:red">*Red*</span>: indicating an error with the firewall
-- <span style="color:yellow">*Yellow*</span>: indicating an error with any Unifi device
-- <span style="color:green">*Green*</span>: no errors. Location fully visibile.
+- *Red*: indicating an error with the firewall
+- *Yellow*: indicating an error with any Unifi device
+- *Green*: no errors. Location fully visibile.
+Marker colors can be observed in the photo *Marker Colors*
 
-
-To the right of the screen, a hamburger menu is present, as seen in the photo *Notification Panel*. This menu may or may not display a bubble to the top right, depending on the state of every device tracked by this map. If a network device is down, then the bubble will display a count on top of the hamburger menu. When clicked, the hamburger menu toggles the *Notification Panel*. This panel contains each of the locations that have devices currently in an error state. (indicated by red or yellow) In the Notification Panel, each location will take the form of a clickable card. When clicked, the card will then pop up a modal window on the screen which contains each device at that specific location in an error state. Each device is color coded, according to the color coding schema above.
+To the right of the screen, a hamburger menu is present, as seen in the photo *Notification Panel*. This menu may or may not display a bubble to the top right, depending on the state of every device tracked by this map, as shown in *Notification Menu Counter*. If a network device is down, then the bubble will display a count on top of the hamburger menu. When clicked, the hamburger menu toggles the *Notification Panel*. This panel contains each of the locations that have devices currently in an error state. (indicated by red or yellow) In the Notification Panel, each location will take the form of a clickable card. When clicked, the card will then pop up a modal window on the screen which contains each device at that specific location in an error state. Each device is color coded, according to the color coding schema above. This is shown in the photo *Notification Menu Clickable Device List*.
 
 ## Photos
 
 Initial View
 ![Initial View](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/WideShot.png)
 
+InfoWindow
+![InfoWindow](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/InfoWindowShot.png)
+
+Device Panel
+![DevicePanel](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/DevicePanelShot1.png)
+
+Marker Colors
+![MarkerColors](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/MarkerColorShot.png)
+
+Notification Panel
+![NotificationPanel](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/NotificationMenu.png)
+
+Notification Menu Counter
+![NotificationCounter](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/NotificationMenuBubble.png)
+
+Notification Menu Clickable Device List
+![NotificationMenuClickableDeviceList](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/NotificationMenuPopUpDeviceList.png)
+
+
+## Acknowledgements
+This project was made possible through the use of Google Maps + Places API. Additionally, all device information was possible to gather through the use of the APIs provided by OpManager and the Unifi Site Manager. 
+
+All proprietary information herein belongs to Saf-Gard Safety Shoes.
+
+Thank you to Saf-Gard for allowing me the opportunity to create this project.
