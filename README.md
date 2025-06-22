@@ -26,3 +26,7 @@ Upon encountering an error with one of the devices for a location, the AdvancedM
 To the right of the screen, a hamburger menu is present, as seen in the photo *Notification Panel*. This menu may or may not display a bubble to the top right, depending on the state of every device tracked by this map. If a network device is down, then the bubble will display a count on top of the hamburger menu. When clicked, the hamburger menu toggles the *Notification Panel*. This panel contains each of the locations that have devices currently in an error state. (indicated by red or yellow) In the Notification Panel, each location will take the form of a clickable card. When clicked, the card will then pop up a modal window on the screen which contains each device at that specific location in an error state. Each device is color coded, according to the color coding schema above.
 
 ## Photos
+
+Initial View
+![Initial View](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/WideShot.png)
+
