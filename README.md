@@ -34,7 +34,7 @@ InfoWindow
 ![InfoWindow](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/InfoWindowShot.png)
 
 Device Panel
-![DevicePanel](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/DevicePanelShot1.png)
+![DevicePanel](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/DevicePanelShotR.PNG)
 
 Marker Colors
 ![MarkerColors](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/MarkerColorShot.png)
@@ -46,12 +46,12 @@ Notification Menu Counter
 ![NotificationCounter](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/NotificationMenuBubble.png)
 
 Notification Menu Clickable Device List
-![NotificationMenuClickableDeviceList](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/NotificationMenuPopUpDeviceList.png)
+![NotificationMenuClickableDeviceList](https://github.com/SworxOnThings/SafgardNetworkMap/blob/main/SafgardNetworkMapPhotos/NotificationMenuPopUpDeviceListR.PNG)
 
 
 ## Acknowledgements
-This project was made possible through the use of Google Maps + Places API. Additionally, all device information was possible to gather through the use of the APIs provided by OpManager and the Unifi Site Manager. 
+This project was made possible through the use of Google Maps + Places API. Additionally, all device information was gathered through the use of the APIs provided by OpManager and the Unifi Site Manager. 
 
-All proprietary information herein belongs to Saf-Gard Safety Shoes.
+All proprietary device information herein belongs to Saf-Gard Safety Shoes.
 
 Thank you to Saf-Gard for allowing me the opportunity to create this project.
